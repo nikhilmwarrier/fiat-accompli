@@ -1,6 +1,6 @@
 import { FastifyInstance, FastifyPluginOptions } from "fastify";
 
-export default async function handleRoot(
+export default async function main(
   fastify: FastifyInstance,
   options: FastifyPluginOptions,
 ) {

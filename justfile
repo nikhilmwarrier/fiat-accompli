@@ -17,3 +17,14 @@ run:
 dev:
     pnpm exec tsc --watch 
 
+# Generate migration files
+gen:
+    pnpm exec drizzle-kit generate
+
+# Push schema to sqlite.db
+push:
+    pnpm exec drizzle-kit push
+
+# Open the GUI to see your ledger
+studio:
+    pnpm exec drizzle-kit studio

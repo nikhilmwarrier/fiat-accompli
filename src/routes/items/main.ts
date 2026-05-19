@@ -1,6 +1,6 @@
 import { FastifyInstance, FastifyPluginOptions } from "fastify";
 
-export default function items(
+export default async function items(
   fastify: FastifyInstance,
   options: FastifyPluginOptions,
 ) {
